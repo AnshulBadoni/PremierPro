@@ -8,7 +8,7 @@ export const fetchDetails = async (id) => {
     url: `https://api.themoviedb.org/3/movie/${id}`,
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYTg3YmFlZGZjMjNmOTAxZjk1NTFmMTFlOWFiMmRiNSIsInN1YiI6IjYzMGVmYjlhZDdkY2QyMDA3ZTMyNDFlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.BuhYUUlkDDCU9I4zIq-MeUEKCKPx9jG3wrdM9oRpw20'
+      Authorization: 'Bearer api_key'
     }
   };
 
@@ -30,7 +30,7 @@ export const fetchtvDetails = async (id) => {
     url: `https://api.themoviedb.org/3/tv/${id}`,
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYTg3YmFlZGZjMjNmOTAxZjk1NTFmMTFlOWFiMmRiNSIsInN1YiI6IjYzMGVmYjlhZDdkY2QyMDA3ZTMyNDFlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.BuhYUUlkDDCU9I4zIq-MeUEKCKPx9jG3wrdM9oRpw20'
+      Authorization: 'Bearer api_key'
     }
   };
 
