@@ -10,7 +10,7 @@ export const fetchData = async (category) => {
     headers: {
       accept: "application/json",
       Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYTg3YmFlZGZjMjNmOTAxZjk1NTFmMTFlOWFiMmRiNSIsInN1YiI6IjYzMGVmYjlhZDdkY2QyMDA3ZTMyNDFlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.BuhYUUlkDDCU9I4zIq-MeUEKCKPx9jG3wrdM9oRpw20",
+        "Bearer api_key",
     },
   };
 
